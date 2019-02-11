@@ -1,4 +1,4 @@
-package com.example.lunchtimeboot.cycle.entity.ReadModel;
+package com.example.lunchtimeboot.cycle.entity.readmodel;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;

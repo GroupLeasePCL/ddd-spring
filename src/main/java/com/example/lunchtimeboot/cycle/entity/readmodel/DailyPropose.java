@@ -1,11 +1,9 @@
-package com.example.lunchtimeboot.cycle.entity.ReadModel;
+package com.example.lunchtimeboot.cycle.entity.readmodel;
 
 import com.example.lunchtimeboot.infrastructure.ddd.BaseEntity;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.UUID;
 
 @Entity
