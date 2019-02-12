@@ -20,8 +20,8 @@ public class CycleFactory {
     }
 
     public Cycle create(String name, User user) {
-        UUID cycleId = this.uuidGenerator.createUuid4();
-        UUID memberId = this.uuidGenerator.createUuid4();
+        UUID cycleId = uuidGenerator.createUuid4();
+        UUID memberId = uuidGenerator.createUuid4();
 
         CycleMember member = new CycleMember(memberId, user.getName(), user.getId());
         Cycle cycle = new Cycle(cycleId, name, member);

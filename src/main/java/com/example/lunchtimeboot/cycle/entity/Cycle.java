@@ -27,6 +27,7 @@ public class Cycle extends BaseAggregate {
         this.id = id;
         this.name = name;
         this.members.add(member);
+        member.setCycle(this);
     }
 
     public Cycle join(String userName, UUID userId) throws CycleGuardException {
