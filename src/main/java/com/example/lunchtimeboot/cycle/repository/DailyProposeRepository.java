@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 @Repository
-public interface DailyProposeRepository extends JpaRepository<DailyPropose, UUID> {
+public interface DailyProposeRepository extends JpaRepository<DailyPropose, UUID>, DailyProposeRepositoryCustom{
 }
